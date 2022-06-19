@@ -1,0 +1,165 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+
+  height: auto;
+}
+
+:root {
+  --basic-white: #ffffff;
+  --dark-color: #1e2939;
+  --accent: #fb6d3a;
+}
+
+.inside-wrap {
+  padding-left: 40px;
+}
+
+.dark-wrapper {
+  background-color: var(--dark-color);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contact-title {
+  color: #ffffff;
+
+  margin-top: 44px;
+  margin-bottom: 8px;
+
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.23;
+}
+
+.contact-list {
+  color: var(--accent);
+  list-style: disc;
+}
+
+.contact-text {
+  color: #ffffff;
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.contact-accent {
+  line-height: 1.71;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.full-wrap {
+  padding: 40px;
+  background: #e5e5e5;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.general-wrapper {
+  display: flex;
+}
+
+.second-wrapper {
+  background-color: var(--basic-white);
+  width: 830px;
+}
+
+.inside-second-wrapper {
+  margin-left: 88px;
+  margin-top: 100px;
+}
+
+.inside-second-wrapper-text {
+  color: var(--accent);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.21;
+}
+
+.inside-second-wrapper-title {
+  color: #000000;
+
+  margin-top: 19px;
+  margin-bottom: 24px;
+
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.22;
+}
+
+.inside-second-wrapper-posttext {
+  color: #595959;
+  width: 550px;
+  margin-bottom: 40px;
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.project-title {
+  color: #000000;
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.23;
+}
+
+.project-list {
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.work-title {
+  color: #000000;
+  margin-bottom: 12px;
+
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.23;
+}
+
+.education-accent {
+  color: #fb6d3a;
+
+  /* margin-bottom: 11px; */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.work-small-text {
+  color: #a8a8a8;
+
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.work-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
